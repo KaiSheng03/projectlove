@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: radial-gradient(white,pink,red);
+}
+
+.container h1{
+    margin: 30px;
+    font-size: 60px;
+    color: white;
+    text-shadow: 3px 3px 5px black, -3px -3px 5px pink;
+    cursor: pointer;
+}
+
+#logout{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+
+#logout:hover{
+    color: gainsboro;
+}
